@@ -1,0 +1,49 @@
+.rsvp {
+  background: linear-gradient(180deg, var(--color-bg) 0%, #f5efe6 100%);
+}
+
+.rsvp__card {
+  max-width: 640px;
+  margin-inline: auto;
+  padding: 2rem;
+}
+
+.rsvp__iframe {
+  width: 100%;
+  min-height: 500px;
+  border: none;
+  border-radius: 8px;
+}
+
+.rsvp__fallback {
+  display: flex;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.rsvp__placeholder {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.rsvp__placeholder p {
+  margin-bottom: 1rem;
+  color: var(--color-text-muted);
+}
+
+.rsvp__placeholder a {
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+.rsvp__hint {
+  font-size: 0.85rem;
+  opacity: 0.7;
+}
+
+.rsvp__hint code {
+  background: rgba(123, 30, 30, 0.08);
+  padding: 0.15em 0.35em;
+  border-radius: 4px;
+  font-size: 0.9em;
+}

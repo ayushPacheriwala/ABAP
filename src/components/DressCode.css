@@ -1,0 +1,46 @@
+.dress-code__grid {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.dress-code__card {
+  padding: 1.75rem;
+}
+
+.dress-code__event {
+  font-family: var(--font-heading);
+  font-size: 1.35rem;
+  color: var(--color-primary);
+  margin-bottom: 0.5rem;
+}
+
+.dress-code__guidance {
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.dress-code__swatches {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.dress-code__swatch {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.dress-code__note {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  font-style: italic;
+}
+
+@media (min-width: 768px) {
+  .dress-code__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

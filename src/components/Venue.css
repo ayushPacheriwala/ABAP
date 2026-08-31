@@ -1,0 +1,85 @@
+.venue {
+  background: linear-gradient(180deg, var(--color-bg) 0%, #f5efe6 100%);
+}
+
+.venue__grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.venue__info {
+  padding: 2rem;
+}
+
+.venue__heading {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  color: var(--color-primary);
+  margin-bottom: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.venue__heading:first-child {
+  margin-top: 0;
+}
+
+.venue__address {
+  font-style: normal;
+  line-height: 1.7;
+  color: var(--color-text);
+}
+
+.venue__landmark {
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
+
+.venue__travel {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.venue__travel li {
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+  padding-left: 1rem;
+  border-left: 2px solid var(--color-accent);
+}
+
+.venue__travel strong {
+  color: var(--color-text);
+}
+
+.venue__directions {
+  margin-top: 1.5rem;
+  width: 100%;
+}
+
+.venue__map {
+  min-height: 280px;
+  overflow: hidden;
+}
+
+.venue__map iframe {
+  min-height: 280px;
+}
+
+@media (min-width: 768px) {
+  .venue__grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .venue__map {
+    min-height: 400px;
+  }
+
+  .venue__map iframe {
+    min-height: 400px;
+  }
+
+  .venue__directions {
+    width: auto;
+  }
+}
