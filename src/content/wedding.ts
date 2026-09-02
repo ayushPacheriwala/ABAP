@@ -51,7 +51,7 @@ export const wedding = {
         image: 'dress-code/haldi.jpg',
       },
       {
-        name: 'Wedding & Reception — December 9',
+        name: 'Wedding, Reception — December 9',
         guidance: 'Traditional Indian formal — lehenga, saree, sherwani, or kurta or Western Suits for men',
         colors: ['#7B1E1E', '#C9A84C', '#1B4332', '#4A1942'],
         note: 'Please avoid wearing all-white to the ceremony.',

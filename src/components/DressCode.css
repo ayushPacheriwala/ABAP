@@ -16,7 +16,7 @@
 .dress-code__image {
   display: block;
   width: 100%;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 11 / 6;
   object-fit: cover;
 }
 
