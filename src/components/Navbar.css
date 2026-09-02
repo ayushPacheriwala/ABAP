@@ -1,5 +1,6 @@
 .navbar {
   position: fixed;
+  background: rgba(250, 247, 242, 0.95);
   top: 0;
   left: 0;
   right: 0;
