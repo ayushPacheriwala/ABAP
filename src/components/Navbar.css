@@ -9,9 +9,16 @@
 }
 
 .navbar--scrolled {
+  box-shadow: 0 2px 20px rgba(44, 24, 16, 0.08);
+}
+
+.navbar--scrolled::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
   background: rgba(250, 247, 242, 0.95);
   backdrop-filter: blur(12px);
-  box-shadow: 0 2px 20px rgba(44, 24, 16, 0.08);
 }
 
 .navbar__inner {
