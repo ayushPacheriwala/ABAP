@@ -16,7 +16,7 @@ export function DressCode() {
               <h3 className="dress-code__event">{event.name}</h3>
               <p className="dress-code__guidance">{event.guidance}</p>
 
-              <div className="dress-code__swatches" aria-label="Suggested colours">
+              {/*<div className="dress-code__swatches" aria-label="Suggested colours">
                 {event.colors.map((color) => (
                   <span
                     key={color}
@@ -25,7 +25,7 @@ export function DressCode() {
                     title={color}
                   />
                 ))}
-              </div>
+              </div>*/}
 
               <p className="dress-code__note">{event.note}</p>
             </article>

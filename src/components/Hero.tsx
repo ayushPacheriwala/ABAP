@@ -1,6 +1,7 @@
 import Countdown from 'react-countdown';
 import { wedding } from '../content/wedding';
 import { SectionDivider } from './SectionDivider';
+import heroPhoto from '../assets/hero.jpeg';
 import './Hero.css';
 
 function CountdownUnit({ value, label }: { value: number; label: string }) {
@@ -17,6 +18,11 @@ export function Hero() {
 
   return (
     <section id="home" className="hero">
+     <div
+        className="hero__photo"
+        style={{ backgroundImage: `url(${heroPhoto})` }}
+        aria-hidden="true"
+      />
       <div className="hero__overlay" />
       <div className="hero__pattern" aria-hidden="true" />
 
@@ -52,6 +58,8 @@ export function Hero() {
             }}
           />
         </div>
+
+         <SectionDivider />
 
         <a href="#rsvp" className="btn btn-primary hero__cta">
           RSVP
