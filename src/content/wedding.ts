@@ -17,44 +17,42 @@ export const wedding = {
     landmark: 'Opposite Tanveer Petrol Pump, Dangra Toli Chowk',
     mapsQuery: 'Swarnabhumi Banquets Ranchi',
     mapsEmbedUrl:
-      'https://maps.google.com/maps?q=Swarnabhumi+Banquets+Ranchi&output=embed',
+      'https://maps.google.com/maps?q=Swarna+Bhumi+Ranchi&output=embed',
     travel: {
-      airport: 'Birsa Munda Airport (IXR) — approx. 15 km',
-      railway: 'Ranchi Junction / Namkom — approx. 2–5 km',
-      parking: 'Ample on-site parking available at the venue',
+      airport: 'Birsa Munda Airport (IXR)',
+      railway: 'Ranchi Junction',
       accommodation:
-        'The venue offers furnished rooms on-site. Contact the family for booking details.',
+        'Stay is pre-booked for Dec 8, 9. Reach out if you have any concerns.',
     },
   },
 
   rsvp: {
-    deadline: 'November 15, 2026',
-    googleFormUrl: '',
+    deadline: 'October 31, 2026',
+    googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSddb1wYER6eAx9EuxqMxvhTfWZzGiWk9pyq8_xNcCKvSoFv0g/viewform?',
     contactName: 'Ayush',
-    contactPhone: '+91 XXXXX XXXXX',
+    contactPhone: '+6581899759 (WhatsApp), +919470135245',
   },
 
   dressCode: {
     intro:
-      'Traditional Indian attire is encouraged for all celebrations. When in doubt, think festive, colourful, and comfortable!',
+      'Traditional Indian attire is encouraged for all celebrations. When in doubt, think festive, colourful, and comfortable! The temperature will be on the cooler side with highs of 25C, and lows of 14C, so plan accordingly.',
     events: [
       {
         name: 'Sangeet — December 8',
-        guidance: 'Semi-formal to formal Indian festive wear',
-        colors: ['#7B1E1E', '#C9A84C', '#2E4A62', '#6B3A6B'],
-        note: 'Sequins, vibrant colours, and celebration-ready outfits welcome!',
+        guidance: 'Glam Indian, Indo-Western',
+        note: 'Sequins, vibrant colours, and celebration-ready outfits to rock the stage when you dance!',
       },
       {
         name: 'Haldi — December 9',
-        guidance: "Comfortable clothes you don't mind getting a little yellow on",
-        colors: ['#F5C842', '#E8A317', '#FFF8E7', '#FF9800'],
-        note: 'Yellow and gold tones are especially festive for this ritual.',
+        guidance: "Comfortable Indian-style clothes in Shades of Yellow",
+        //colors: ['#F5C842', '#E8A317', '#FFF8E7', '#FF9800'],
+        note: 'Avoid shades of lavendar, purple, blue',
       },
       {
         name: 'Wedding & Reception — December 9',
-        guidance: 'Traditional Indian formal — lehenga, saree, sherwani, or kurta',
+        guidance: 'Traditional Indian formal — lehenga, saree, sherwani, or kurta or Western Suits for men',
         colors: ['#7B1E1E', '#C9A84C', '#1B4332', '#4A1942'],
-        note: 'Please avoid wearing all-white or all-black to the ceremony.',
+        note: 'Please avoid wearing all-white to the ceremony.',
       },
     ],
   },
@@ -74,7 +72,7 @@ export const wedding = {
           time: '7:30 PM onwards',
           name: 'Sangeet & Dinner',
           description:
-            'An evening of music, dance, and celebration with both families. Performances, dancing, and a festive dinner.',
+            'An evening of music, dance, and celebration. Performances (by you too!), more dancing, and fooooodddd.',
         },
       ],
     },
@@ -86,7 +84,7 @@ export const wedding = {
         {
           time: '9:00 – 11:00 AM',
           name: 'Breakfast',
-          description: 'Start the day with a hearty breakfast at the venue.',
+          description: 'Start the day with a warm breakfast at the venue.',
         },
         {
           time: '11:00 AM – 12:00 PM',
@@ -97,13 +95,13 @@ export const wedding = {
         {
           time: '1:00 – 2:30 PM',
           name: 'Lunch',
-          description: 'Midday meal before the evening celebrations begin.',
+          description: 'Fuel up before the evening celebrations begin.',
         },
         {
           time: '4:30 PM',
           name: 'Baraat',
           description:
-            "The groom's festive procession arrives with music and dancing. Join the celebration!",
+            "The groom's festive procession with music and dancing. Join the celebration!",
         },
         {
           time: '6:00 PM',
@@ -121,7 +119,7 @@ export const wedding = {
           time: '7:00 PM onwards',
           name: 'Dinner & Reception',
           description:
-            'Celebrate with a grand dinner and reception following the ceremony.',
+            'Indulge in a large spread of (vegetarian) buffet.',
         },
       ],
     },
@@ -132,55 +130,54 @@ export const wedding = {
       category: 'Attire',
       question: 'What should I wear?',
       answer:
-        'Traditional Indian attire is encouraged — lehenga, saree, sherwani, or kurta for the Sangeet and wedding. For Haldi, wear comfortable clothes in yellow or gold tones. Western formal is also welcome if you prefer.',
+        'Traditional Indian attire is encouraged — lehenga, saree, sherwani, or kurta for the Sangeet and wedding. Western formals are also welcome if you prefer. Feel free to reach out if you need help.',
     },
     {
       category: 'Attire',
       question: 'Are there colours I should avoid?',
       answer:
-        'Please avoid wearing all-white or all-black to the wedding ceremony. For Haldi, yellow and gold tones are especially festive and welcome.',
+        'Please avoid wearing shades of blue, purple, lavender for the Haldi function on 9th Morning.',
     },
     {
       category: 'Attire',
-      question: 'Do I need separate outfits for each day?',
+      question: 'How many outfits do I plan for?',
       answer:
-        'One outfit per day works perfectly. Many guests change between the daytime Haldi and the evening ceremony on December 9.',
-    },
+        'One festive outfit for Sangeet, One formal one for the Wedding and re-use something in Yellow for the Haldi. Besides, just have some casual clothes for between events'},
     {
       category: 'Ceremony & Events',
       question: 'What is a Sangeet?',
       answer:
-        'An evening of music, dance, and celebration where both families perform and party together. Feel free to cheer, dance, and enjoy the performances!',
+        'An evening of music, dance, and celebration where friends and families perform and party together. Feel free to cheer, dance, and enjoy the performances!',
     },
     {
       category: 'Ceremony & Events',
       question: 'What is Haldi?',
       answer:
-        "A joyful pre-wedding ritual where turmeric paste is applied to the bride and groom for blessings. Wear something you don't mind getting a little yellow on!",
+        "A joyful pre-wedding ritual where turmeric paste is applied to the bride and groom for blessings!",
     },
     {
       category: 'Ceremony & Events',
       question: 'What happens during the Baraat?',
       answer:
-        'The groom arrives in a festive procession with music and dancing — one of the most energetic moments of an Indian wedding. Guests are welcome to join the dancing!',
+        'The groom arrives in a festive procession with music and dancing — one of the most energetic moments of an Indian wedding. Guests are encouraged to join the dancing!',
     },
     {
       category: 'Ceremony & Events',
       question: 'What are Pheras?',
       answer:
-        'The sacred wedding ritual where Apurva and Ayush walk around a holy fire seven times, taking vows with each round. Please remain seated and respect the sanctity of this moment.',
+        'The sacred wedding ritual where Apurva and Ayush take rounds around a holy fire, taking vows with each round. Please remain seated and respect the sanctity of this moment.',
     },
     {
       category: 'Practical Info',
-      question: 'When should I arrive on December 9?',
+      question: 'When should I plan to arrive at, depart from Ranchi?',
       answer:
-        'Guest arrivals begin on December 8. For the wedding day, we recommend arriving by 4:00 PM to settle in before the Baraat at 4:30 PM.',
+        'Aim to arrive by December 8 afternoon and plan for departure on December 10th. Hotels will be pre-booked for the 8th and 9th December.',
     },
     {
       category: 'Practical Info',
       question: 'Will the food be vegetarian?',
       answer:
-        'Yes — all meals will be vegetarian with a variety of North Indian dishes. Please note any dietary allergies in your RSVP.',
+        'Yes — all meals will be vegetarian with a large variety of dishes.',
     },
     {
       category: 'Practical Info',
