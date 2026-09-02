@@ -208,10 +208,10 @@ export const wedding = {
   ],
 
   gallery: [
-    { id: 1, alt: 'Apurva & Ayush' },
-    { id: 2, alt: 'Together' },
-    { id: 3, alt: 'Celebrating' },
-    { id: 4, alt: 'Our journey' },
+    { id: 1, alt: 'Apurva & Ayush', image: 'gallery/Apruva & Ayush.jpg' },
+    { id: 2, alt: 'Together', image: 'gallery/Together.jpg' },
+    { id: 3, alt: 'Celebrating', image: 'gallery/Celebrating.JPG' },
+    { id: 4, alt: 'Our journey', image: 'gallery/Our journey.jpeg' },
   ],
 
   nav: [
