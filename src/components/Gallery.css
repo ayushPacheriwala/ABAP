@@ -2,13 +2,6 @@
   background: linear-gradient(180deg, #f5efe6 0%, var(--color-bg) 100%);
 }
 
-.gallery__hint {
-  font-size: 0.85em;
-  background: rgba(123, 30, 30, 0.08);
-  padding: 0.15em 0.4em;
-  border-radius: 4px;
-}
-
 .gallery__scroll {
   display: flex;
   gap: 1rem;
@@ -33,19 +26,11 @@
   overflow: hidden;
 }
 
-.gallery__placeholder {
+.gallery__photo {
+  display: block;
+  width: 100%;
   aspect-ratio: 4 / 5;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.gallery__initials {
-  font-family: var(--font-heading);
-  font-size: 3rem;
-  font-weight: 700;
-  color: rgba(255, 255, 255, 0.85);
-  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+  object-fit: cover;
 }
 
 .gallery__caption {

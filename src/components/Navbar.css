@@ -1,5 +1,6 @@
 .navbar {
   position: fixed;
+  background: rgba(250, 247, 242, 0.95);
   top: 0;
   left: 0;
   right: 0;
@@ -8,9 +9,16 @@
 }
 
 .navbar--scrolled {
+  box-shadow: 0 2px 20px rgba(44, 24, 16, 0.08);
+}
+
+.navbar--scrolled::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
   background: rgba(250, 247, 242, 0.95);
   backdrop-filter: blur(12px);
-  box-shadow: 0 2px 20px rgba(44, 24, 16, 0.08);
 }
 
 .navbar__inner {
@@ -21,10 +29,14 @@
 }
 
 .navbar__brand {
-  font-family: var(--font-heading);
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: var(--color-primary);
+  display: flex;
+  align-items: center;
+}
+
+.navbar__monogram {
+  display: block;
+  height: 40px;
+  width: auto;
 }
 
 .navbar__toggle {

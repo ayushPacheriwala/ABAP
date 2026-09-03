@@ -38,21 +38,24 @@ export const wedding = {
       'Traditional Indian attire is encouraged for all celebrations. When in doubt, think festive, colourful, and comfortable! The temperature will be on the cooler side with highs of 25C, and lows of 14C, so plan accordingly.',
     events: [
       {
-        name: 'Sangeet — December 8',
+        name: 'Sangeet — Dec 8',
         guidance: 'Glam Indian, Indo-Western',
         note: 'Sequins, vibrant colours, and celebration-ready outfits to rock the stage when you dance!',
+        image: 'dress-code/sangeet.jpg',
       },
       {
-        name: 'Haldi — December 9',
+        name: 'Haldi — Dec 9',
         guidance: "Comfortable Indian-style clothes in Shades of Yellow",
         //colors: ['#F5C842', '#E8A317', '#FFF8E7', '#FF9800'],
         note: 'Avoid shades of lavendar, purple, blue',
+        image: 'dress-code/haldi.jpg',
       },
       {
-        name: 'Wedding & Reception — December 9',
+        name: 'Wedding & Reception — Dec 9',
         guidance: 'Traditional Indian formal — lehenga, saree, sherwani, or kurta or Western Suits for men',
         colors: ['#7B1E1E', '#C9A84C', '#1B4332', '#4A1942'],
         note: 'Please avoid wearing all-white to the ceremony.',
+        image: 'dress-code/pheras.jpg',
       },
     ],
   },
@@ -205,10 +208,10 @@ export const wedding = {
   ],
 
   gallery: [
-    { id: 1, alt: 'Apurva & Ayush' },
-    { id: 2, alt: 'Together' },
-    { id: 3, alt: 'Celebrating' },
-    { id: 4, alt: 'Our journey' },
+    { id: 1, alt: 'Apurva & Ayush', image: 'gallery/Apruva & Ayush.jpg' },
+    { id: 2, alt: 'Together', image: 'gallery/Together.jpg' },
+    { id: 3, alt: 'Celebrating', image: 'gallery/Celebrating.JPG' },
+    { id: 4, alt: 'Our journey', image: 'gallery/Our journey.jpeg' },
   ],
 
   nav: [

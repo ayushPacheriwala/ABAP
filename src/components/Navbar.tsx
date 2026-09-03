@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { wedding } from '../content/wedding';
+import monogram from '../assets/monogram.png';
 import './Navbar.css';
 
 export function Navbar() {
@@ -25,7 +26,11 @@ export function Navbar() {
     <header className={`navbar ${scrolled ? 'navbar--scrolled' : ''}`}>
       <div className="navbar__inner container">
         <a href="#home" className="navbar__brand" onClick={close}>
-          {wedding.bride.charAt(0)} & {wedding.groom.charAt(0)}
+          <img
+            src={monogram}
+            alt={`${wedding.bride} & ${wedding.groom}`}
+            className="navbar__monogram"
+          />
         </a>
 
         <button

@@ -27,9 +27,9 @@ export function Venue() {
               <li>
                 <strong>Railway:</strong> {venue.travel.railway}
               </li>
-              <li>
+             {/* <li>
                 <strong>Parking:</strong> {venue.travel.parking}
-              </li>
+              </li>*/}
               <li>
                 <strong>Stay:</strong> {venue.travel.accommodation}
               </li>

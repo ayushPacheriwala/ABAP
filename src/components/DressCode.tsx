@@ -13,10 +13,21 @@ export function DressCode() {
         <div className="dress-code__grid">
           {dressCode.events.map((event) => (
             <article key={event.name} className="dress-code__card card">
+              {event.image && (
+                <div className="dress-code__image-wrap">
+                  <img
+                    src={`${import.meta.env.BASE_URL}${event.image}`}
+                    alt={`Reference outfits for ${event.name}`}
+                    className="dress-code__image"
+                    loading="lazy"
+                  />
+                </div>
+              )}
+
               <h3 className="dress-code__event">{event.name}</h3>
               <p className="dress-code__guidance">{event.guidance}</p>
 
-              <div className="dress-code__swatches" aria-label="Suggested colours">
+              {/*<div className="dress-code__swatches" aria-label="Suggested colours">
                 {event.colors.map((color) => (
                   <span
                     key={color}
@@ -25,7 +36,7 @@ export function DressCode() {
                     title={color}
                   />
                 ))}
-              </div>
+              </div>*/}
 
               <p className="dress-code__note">{event.note}</p>
             </article>
