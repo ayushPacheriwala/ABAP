@@ -30,7 +30,7 @@ export const wedding = {
     deadline: 'October 31, 2026',
     googleFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSddb1wYER6eAx9EuxqMxvhTfWZzGiWk9pyq8_xNcCKvSoFv0g/viewform?',
     contactName: 'Ayush',
-    contactPhone: '+6581899759 (WhatsApp), +919470135245',
+    contactPhone: '+6581899759 or +919470135245',
   },
 
   dressCode: {
@@ -200,7 +200,7 @@ export const wedding = {
       category: 'Practical Info',
       question: 'Who do I contact with questions?',
       answer:
-        'Reach out to Ayush at +91 XXXXX XXXXX for any questions about travel, accommodation, or the schedule.',
+        'Reach out to Ayush at +6581899759 or +919470135245 for any questions about travel, accommodation, or the schedule.',
     },
   ],
 
