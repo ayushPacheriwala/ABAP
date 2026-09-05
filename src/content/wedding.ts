@@ -184,20 +184,20 @@ export const wedding = {
     },
     {
       category: 'Practical Info',
-      question: 'Are children welcome?',
-      answer: 'Absolutely! Families are welcome at all events.',
+      question: 'What flights should I book?',
+      answer: 'Ranchi is connected with several major cities across India with Delhi and Kolkata having most number of flights per day. While booking you can use a different carrier on the international leg and Indigo on the domestic leg. Preference would be to land by 4PM latest on Dec 8th. If you need to arrive earlier on the 7th, do let us know.',
     },
     {
       category: 'Practical Info',
-      question: 'Can I take photos during the ceremony?',
+      question: 'Where do I apply for visa?',
       answer:
-        'Casual photos are welcome during Sangeet and Baraat. During Pheras, we kindly ask guests to put phones away and be fully present with us — our photographer will capture the moment.',
+        'You can apply for visa here - https://indianvisaonline.gov.in/.',
     },
     {
       category: 'Practical Info',
       question: 'What should I bring as a gift?',
       answer:
-        'Your presence is the greatest gift. If you wish to give something, monetary blessings (shagun) in an envelope are traditional and appreciated.',
+        'You making the trip to Ranchi and joining the celebrations is the greatest gift. If you still wish to give something, monetary blessings and appreciated due to luggage constaints.',
     },
     {
       category: 'Practical Info',
