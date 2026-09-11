@@ -197,7 +197,7 @@ export const wedding = {
       category: 'Practical Info',
       question: 'What should I bring as a gift?',
       answer:
-        'You making the trip to Ranchi and joining the celebrations is the greatest gift. If you still wish to give something, monetary blessings and appreciated due to luggage constaints.',
+        'You making the trip to Ranchi and joining the celebrations is the greatest gift. If you still wish to give something, monetary blessings and appreciated due to luggage constraints.',
     },
     {
       category: 'Practical Info',
