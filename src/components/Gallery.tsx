@@ -16,6 +16,7 @@ export function Gallery() {
                 alt={photo.alt}
                 className="gallery__photo"
                 loading="lazy"
+                    decoding="async"
               />
               <figcaption className="gallery__caption">{photo.alt}</figcaption>
             </figure>

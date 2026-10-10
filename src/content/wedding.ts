@@ -41,21 +41,21 @@ export const wedding = {
         name: 'Sangeet — Dec 8',
         guidance: 'Glam Indian, Indo-Western',
         note: 'Sequins, vibrant colours, and celebration-ready outfits to rock the stage when you dance!',
-        image: 'dress-code/sangeet.jpg',
+        image: 'dress-code/sangeet-optimized.jpg',
       },
       {
         name: 'Haldi — Dec 9',
         guidance: "Comfortable Indian-style clothes in Shades of Yellow",
         //colors: ['#F5C842', '#E8A317', '#FFF8E7', '#FF9800'],
         note: 'Avoid shades of lavendar, purple, blue',
-        image: 'dress-code/haldi.jpg',
+        image: 'dress-code/haldi-optimized.jpg',
       },
       {
         name: 'Wedding & Reception — Dec 9',
         guidance: 'Traditional Indian formal — lehenga, saree, sherwani, or kurta or Western Suits for men',
         colors: ['#7B1E1E', '#C9A84C', '#1B4332', '#4A1942'],
         note: 'Please avoid wearing all-white to the ceremony.',
-        image: 'dress-code/pheras.jpg',
+        image: 'dress-code/pheras-optimized.jpg',
       },
     ],
   },
@@ -208,10 +208,10 @@ export const wedding = {
   ],
 
   gallery: [
-    { id: 1, alt: 'Apurva & Ayush', image: 'gallery/Apruva & Ayush.jpg' },
-    { id: 2, alt: 'Together', image: 'gallery/Together.jpg' },
-    { id: 3, alt: 'Celebrating', image: 'gallery/Celebrating.JPG' },
-    { id: 4, alt: 'Our journey', image: 'gallery/Our journey.jpeg' },
+    { id: 1, alt: 'Apurva & Ayush', image: 'gallery/Apruva & Ayush-optimized.jpg' },
+    { id: 2, alt: 'Together', image: 'gallery/Together-optimized.jpg' },
+    { id: 3, alt: 'Celebrating', image: 'gallery/Celebrating-optimized.jpg' },
+    { id: 4, alt: 'Our journey', image: 'gallery/Our journey-optimized.jpg' },
   ],
 
   nav: [

@@ -20,6 +20,7 @@ export function DressCode() {
                     alt={`Reference outfits for ${event.name}`}
                     className="dress-code__image"
                     loading="lazy"
+                    decoding="async"
                   />
                 </div>
               )}
