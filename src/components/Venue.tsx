@@ -36,7 +36,7 @@ export function Venue() {
             </ul>
 
             <a
-              href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(venue.mapsQuery)}`}
+              href={venue.mapsUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-outline venue__directions"

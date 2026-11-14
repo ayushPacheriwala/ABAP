@@ -42,7 +42,7 @@ npm run deploy
 
 ## Sections
 
-- Hero with countdown to Pheras (Dec 9, 7:30 PM)
+- Hero with countdown to Pheras (Dec 9, 6:00 PM)
 - Two-day event schedule (Sangeet + Wedding)
 - Venue & travel info (Swarnabhumi, Ranchi)
 - Dress code guidance

@@ -7,7 +7,7 @@ export const wedding = {
 
   countdown: {
     label: 'Until Pheras',
-    target: '2026-12-09T19:30:00+05:30',
+    target: '2026-12-09T18:00:00+05:30',
   },
 
   venue: {
@@ -15,7 +15,7 @@ export const wedding = {
     address: 'A/118, Purulia Road, Dangartoli, Nayatoli',
     city: 'Ranchi, Jharkhand 834001',
     landmark: 'Opposite Tanveer Petrol Pump, Dangra Toli Chowk',
-    mapsQuery: 'Swarnabhumi Banquets Ranchi',
+    mapsUrl: 'https://maps.app.goo.gl/zWBPkYGuP3XRRQ6G9',
     mapsEmbedUrl:
       'https://maps.google.com/maps?q=Swarna+Bhumi+Ranchi&output=embed',
     travel: {
@@ -72,7 +72,22 @@ export const wedding = {
           description: 'Welcome to Ranchi! Check in and settle in at the venue.',
         },
         {
-          time: '7:30 PM onwards',
+          time: '8:00 – 10:30 AM',
+          name: 'Breakfast',
+          description: 'Start the day with a warm breakfast at the venue.',
+        },
+        {
+          time: '1:00 – 2:30 PM',
+          name: 'Lunch',
+          description: 'Fuel up before the evening celebrations begin.',
+        },
+        {
+          time: '5:30 PM',
+          name: 'High Tea',
+          description: 'Tea, snacks, and a relaxed catch-up before the Sangeet.',
+        },
+        {
+          time: '7:00 PM onwards',
           name: 'Sangeet & Dinner',
           description:
             'An evening of music, dance, and celebration. Performances (by you too!), more dancing, and fooooodddd.',
@@ -85,12 +100,12 @@ export const wedding = {
       title: 'Day 2 — Wedding',
       items: [
         {
-          time: '9:00 – 11:00 AM',
+          time: '8:00 – 10:30 AM',
           name: 'Breakfast',
           description: 'Start the day with a warm breakfast at the venue.',
         },
         {
-          time: '11:00 AM – 12:00 PM',
+          time: '10:00 AM – 12:00 PM',
           name: 'Haldi',
           description:
             'A joyful pre-wedding ritual where turmeric paste is applied for blessings. Wear yellow-friendly attire!',
@@ -101,18 +116,18 @@ export const wedding = {
           description: 'Fuel up before the evening celebrations begin.',
         },
         {
-          time: '4:30 PM',
+          time: '3:30 PM',
           name: 'Baraat',
           description:
             "The groom's festive procession with music and dancing. Join the celebration!",
         },
         {
-          time: '6:00 PM',
+          time: '5:00 PM',
           name: 'Varmala',
           description: 'Garland exchange ceremony — the bride and groom meet on stage.',
         },
         {
-          time: '7:30 PM',
+          time: '6:00 PM',
           name: 'Pheras',
           description:
             'The sacred wedding ritual — seven rounds around the holy fire, taking vows with each step.',
